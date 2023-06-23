@@ -18,9 +18,8 @@ Write a python script that tracks the balance of accounts. If any account balanc
 
 
 **Part 2.**  
-Write a smart contract in solidity to periodically pay out TLOS from the contract to the addresses in Part 1 when they fall below thier minimum account balance. 
+Write a smart contract in solidity to periodically pay out TLOS from the contract to the addresses in Part 1 when they fall below their minimum account balance, then send an SMS message with the transaction hash, the update amount, and the contract's new TLOS balance. 
 
-After the "Owner" of the contract calls the  **Distribute** function instructing the contract to top up the account that has fallen below it's minimum account balance, an SMS message is  sent with the transaction hash + the update amount. 
 
 **Contract requirements:**
 
