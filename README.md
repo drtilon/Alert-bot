@@ -14,7 +14,10 @@ Write a python script that tracks the balance of accounts. If any account balanc
 |OrderKeeper|0x948d447ef250E3468481E8622A475980F01015e1|200| 
 |Liquidator|0x4Af5f783056C26231190DDC744D157e399488bbD|200| 
 |PriceKeeper|0x4550AaB24fFc973dFf67882a6758cac43C5Cc605|500| 
+|LendingPriceKeeper|0x27a9947FC9bE28b82ACa040433B25a1eb10C5Fe6|500| 
 |DIAOracle|0x4b4c4a6e760fdea078efc6bea046946b639bddea|500| 
+
+
 
 
 **Part 2.**  
