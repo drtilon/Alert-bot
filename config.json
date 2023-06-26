@@ -4,28 +4,13 @@
         "https://rpc1.us.telos.net/evm",
         "https://mainnet.telos.caleos.io/evm"
     ],
-    "account_name": [
-        "PositionKeeper",
-        "OrderKeeper",
-        "Liquidator",
-        "PriceKeeper",
-        "LendingPriceKeeper",
-        "DIAOracle"
-    ],
-    "address": [
-        "0xFd60266002F4FAaBE8d8d9C66294EDe4810C6f34",
-        "0x948d447ef250E3468481E8622A475980F01015e1",
-        "0x4Af5f783056C26231190DDC744D157e399488bbD",
-        "0x4550AaB24fFc973dFf67882a6758cac43C5Cc605",
-        "0x27a9947FC9bE28b82ACa040433B25a1eb10C5Fe6",
-        "0x4b4c4a6e760FDEa078efC6BEa046946b639BdDEA"
-    ],
-    "min_amount_tlos": [
-        200,
-        200,
-        200,
-        500,
-        500,
-        500
-    ]
+    "addresses": {
+        "PositionKeeper":["0xFd60266002F4FAaBE8d8d9C66294EDe4810C6f34",200],
+        "OrderKeeper":["0x948d447ef250E3468481E8622A475980F01015e1",200],
+        "Liquidator":["0x4Af5f783056C26231190DDC744D157e399488bbD",200],
+        "PriceKeeper":["0x4550AaB24fFc973dFf67882a6758cac43C5Cc605",500],
+        "LendingPriceKeeper":["0x27a9947FC9bE28b82ACa040433B25a1eb10C5Fe6",500],
+        "DIAOracle":["0x4b4c4a6e760FDEa078efC6BEa046946b639BdDEA",500]
+    },
+    "interval_sec":300
 }
